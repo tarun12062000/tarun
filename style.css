@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    margin:20px 400px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+   
+}
+.col25{
+    width:25%;
+    float: left;
+    margin-top: 6px;
+}
+
+.col75{
+    float: left;
+    width:75%;
+    margin-top: 6px;
+}
+
+    
+.head,p {
+    text-align: center;
+}
+input[type=text], [type=number], [type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+
+ }
+ label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+ 
+
+  .btn{
+    padding-left:250px;
+    padding-top: 10px;
+    display: flex;
+   
+    
+  }
+  
+  
+  input[type=button]{
+    background-color: rgb(47, 233, 47);
+    padding: 5px;
+    margin-right: 40px;
+
+  
+  }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
